@@ -23,4 +23,17 @@ int main(void) {
     }
   }
 }
+float wallis_pi(int i){
+int p,product,pi;
+int n=1,fact=1;
+while(i>=n)
+{
+p=(4*n*n)/(4*n*n)-1;
+product=p*fact;
+fact=p;
+n++;
+}
+pi=2*product;
+return(pi);
+}
 
