@@ -48,8 +48,8 @@ float mc_pi(int a){
             count++;
         }
     }
-    float m = 4*count/a;
-    return m;
+    float k = 4*count/a;
+    return k;
 }
 
 
